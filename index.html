@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="th">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Profile - John Doe</title>
+    <script>
+      import { createIcons, github, facebook } from "lucide";
+
+      createIcons({
+        icons: {
+          github,
+          facebook,
+        },
+      });
+    </script>
+
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #ffffff;
+        color: #333;
+        margin: 0;
+        padding: 40px 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        line-height: 1.6;
+      }
+
+      h1 {
+        font-size: 3rem;
+        margin: 0 0 20px 0;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+      }
+
+      .profile-img-container {
+        width: 180px;
+        height: 180px;
+        border: 1px solid #ddd;
+        border-radius: 50%;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+      }
+
+      .profile-img-container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      h3 {
+        font-size: 1.2rem;
+        margin-top: 30px;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+      }
+
+      p {
+        max-width: 600px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: #555;
+      }
+
+      ul {
+        list-style: none;
+        padding: 0;
+        text-align: center;
+      }
+
+      ul li {
+        margin-bottom: 5px;
+      }
+
+      .social-links {
+        margin-top: 20px;
+      }
+
+      .social-links a {
+        display: block;
+        color: #0066cc;
+        text-decoration: none;
+        margin: 10px 0;
+        font-size: 1.1rem;
+      }
+
+      .social-links a:hover {
+        text-decoration: underline;
+      }
+
+      li::before {
+        content: "I: ";
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Thanapat Kitsamret</h1>
+
+    <div class="profile-img-container">
+      <img
+        src="https://scontent.furt3-1.fna.fbcdn.net/v/t39.30808-1/380540933_1026356428605382_4437919843606820444_n.jpg?stp=dst-jpg_s200x200_tt6&_nc_cat=108&ccb=1-7&_nc_sid=e99d92&_nc_ohc=pokBlnv1fkUQ7kNvwFQTM88&_nc_oc=AdkMyjfMpRh9OHBEs4hXrIdldbkAk-A-uFD9UHtxkO8LA3hn3ZCduKGbG6IEuTss0IhxUMoVB7FsRGNLfKppUJZ2&_nc_zt=24&_nc_ht=scontent.furt3-1.fna&_nc_gid=ZQs-VuZRqAsDQUb_ie5mdQ&oh=00_Afr3SOIvqVi7OAqSgSzOqJoGFpbjQkMwo9rToFbWkr5pBQ&oe=6975787A"
+        alt="Profile Picture"
+      />
+    </div>
+
+    <h3>About Me</h3>
+    <p>
+      Hello! I'm Mark Thanapat, a passionate web developer with a love for
+      creating user-friendly and visually appealing websites. I enjoy learning
+      new technologies and bring ideas to life through code.
+    </p>
+
+    <h3>My Interests</h3>
+    <ul>
+      <li>🖥️Data</li>
+      <li>🎮Play Valorant Immortal</li>
+      <li>🏀PlayBasketball & Photography📸</li>
+    </ul>
+
+    <h3>Connect With Me</h3>
+    <div class="social-links">
+      <a href="https://www.facebook.com/mark.tanapat.334" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-facebook-icon lucide-facebook"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg> Facebook /
+        https://www.facebook.com/mark.tanapat.334
+      </a>
+      <a href="https://github.com/Marktanapat2548" target="_blank">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-github-icon lucide-github"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/><path d="M9 18c-4.51 2-5-2-7-2"/></svg></svg> GitHub / https://github.com/Marktanapat2548
+      </a>
+    </div>
+  </body>
+</html>
